@@ -3,6 +3,7 @@ body{
     font-family: sans-serif;
     width: 80%;
     margin: 30px auto;
+    background-color: #f7f7f7;
 }
 
 header{
@@ -57,7 +58,7 @@ nav .navigation a:hover{
 
 .portfolio,
 .portfolio__content{
-    margin: 80px 0;
+    margin: 100px 0;
 }
 
 .portfolio__content{
@@ -105,4 +106,29 @@ nav .navigation a:hover{
 
 .portfolio__card img{
     width: 100%;
+}
+
+.description{
+    background-image: url("./images/bg_detalhe.png");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #0C3B55;
+    padding: 100px;
+}
+
+.description h1{
+    font-size: 64px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.description h1,
+.description p{
+    color: #f7f7f7;
+}
+
+.description p{
+    line-height: 2;
+    width: 50%;
 }
