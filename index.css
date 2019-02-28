@@ -1,6 +1,6 @@
 body{
     box-sizing: border-box; 
-    font-family: sans-serif;
+    font-family: tahoma, Arial, sans-serif;
     width: 80%;
     margin: 30px auto;
     background-color: #f7f7f7;
@@ -50,6 +50,7 @@ nav:hover .navigation a{
     text-transform: uppercase;
     color: #ffffff50;
     letter-spacing: 3px;
+    transition: color .3s linear;
 }
 
 nav .navigation a:hover{
